@@ -7,24 +7,24 @@ Test #4 passed. Expected turn matches whoseTurn().
 Test #5 passed. Expected turn matches whoseTurn().
 All tests passed.
 
-File 'dominion.c'
-Lines executed:0.35% of 565
-Branches executed:0.00% of 415
-Taken at least once:0.00% of 415
-Calls executed:0.00% of 100
-Creating 'dominion.c.gcov'
+File 'unittest1.c'
+Lines executed:82.35% of 17
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:66.67% of 6
+Creating 'unittest1.c.gcov'
 
 unittest2.c
 Testing drawCard():
 Test passed. Player drew a card.
 All tests passed.
 
-File 'dominion.c'
-Lines executed:15.75% of 565
-Branches executed:15.42% of 415
-Taken at least once:12.29% of 415
-Calls executed:7.00% of 100
-Creating 'dominion.c.gcov'
+File 'unittest2.c'
+Lines executed:83.33% of 18
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:71.43% of 7
+Creating 'unittest2.c.gcov'
 
 unittest3.c
 Testing discardCard():
@@ -32,36 +32,36 @@ Test passed. Player discarded a card.
 Test passed. Player's played card count increased by 1.
 All tests passed.
 
-File 'dominion.c'
-Lines executed:17.70% of 565
-Branches executed:16.87% of 415
-Taken at least once:13.01% of 415
-Calls executed:7.00% of 100
-Creating 'dominion.c.gcov'
+File 'unittest3.c'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:66.67% of 9
+Creating 'unittest3.c.gcov'
 
 unittest4.c
 Testing shuffle():
 Test passed. The player's deck size was unchanged during the shuffle.
 All tests passed.
 
-File 'dominion.c'
-Lines executed:17.70% of 565
-Branches executed:16.87% of 415
-Taken at least once:13.01% of 415
-Calls executed:7.00% of 100
-Creating 'dominion.c.gcov'
+File 'unittest4.c'
+Lines executed:83.33% of 18
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:71.43% of 7
+Creating 'unittest4.c.gcov'
 
 cardtest1.c
 Testing Smithy card:
 Test failed. Player drew 4 new cards.
 At least one test failed.
 
-File 'dominion.c'
-Lines executed:20.35% of 565
-Branches executed:22.89% of 415
-Taken at least once:13.98% of 415
-Calls executed:12.00% of 100
-Creating 'dominion.c.gcov'
+File 'cardtest1.c'
+Lines executed:90.00% of 20
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:71.43% of 7
+Creating 'cardtest1.c.gcov'
 
 cardtest2.c
 Testing Adventurer card:
@@ -69,12 +69,12 @@ Test failed. -4 treasure cards were drawn.
 Test failed. No additional cards were added to test hand.
 At least one test failed.
 
-File 'dominion.c'
-Lines executed:25.49% of 565
-Branches executed:26.27% of 415
-Taken at least once:17.35% of 415
-Calls executed:17.00% of 100
-Creating 'dominion.c.gcov'
+File 'cardtest2.c'
+Lines executed:82.35% of 34
+Branches executed:66.67% of 24
+Taken at least once:41.67% of 24
+Calls executed:66.67% of 9
+Creating 'cardtest2.c.gcov'
 
 cardtest3.c
 Testing Village card:
@@ -82,12 +82,12 @@ Test passed. Player drew one card.
 Test failed. Player gained 4 actions.
 At lest one test failed.
 
-File 'dominion.c'
-Lines executed:26.73% of 565
-Branches executed:26.27% of 415
-Taken at least once:17.59% of 415
-Calls executed:21.00% of 100
-Creating 'dominion.c.gcov'
+File 'cardtest3.c'
+Lines executed:83.33% of 24
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:66.67% of 9
+Creating 'cardtest3.c.gcov'
 
 cardtest4.c
 Testing Council Room card:
@@ -98,10 +98,10 @@ Test passed. Player 3 drew 1 card.
 Test passed. Player 4 drew 1 card.
 At least one test failed.
 
-File 'dominion.c'
-Lines executed:29.73% of 565
-Branches executed:28.19% of 415
-Taken at least once:20.24% of 415
-Calls executed:26.00% of 100
-Creating 'dominion.c.gcov'
+File 'cardtest4.c'
+Lines executed:79.31% of 29
+Branches executed:100.00% of 10
+Taken at least once:60.00% of 10
+Calls executed:63.64% of 11
+Creating 'cardtest4.c.gcov'
 
