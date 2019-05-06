@@ -1,29 +1,44 @@
-#include "dominion.h"
-#include "dominion_helpers.h"
-#include "rngs.h"
-#include <string.h>
-#include <stdio.h>
-#include <math.h>
 #include <stdlib.h>
-#include <assert.h>
+#include <stdio.h>
+#include "assert.h"
+#include "dominion.h"
+#include "rngs.h"
+#include <time.h>
 
-void main ()	
+#define FUNC "whoseTurn"
+#define NUM_TURNS 5
+
+int main()
 {
-	struct gameState state1;
-	struct gameState state2;
-	state1.whoseTurn = 1;
-	state2.whoseTurn = 2;
-	
-	printf("\nCheck player 1");
-	if(whoseTurn(&state1) == 1)
-		printf("\nPassed where player is player %d\n", state1.whoseTurn);
-	else
-		printf("\nFailed where player is player %d\n", state1.whoseTurn);
-	
-	
-	printf("\nCheck player 2");
-	if(whoseTurn(&state2) == 2)
-		printf("\nPassed where player is player %d\n", state2.whoseTurn);
-	else
-		printf("\nFailed where player is player %d\n", state2.whoseTurn);
+   int i;
+   int turn = 0;
+   int result = 0;
+   int flag = 0;
+   struct gameState G;
+
+   printf("Testing %s():\n", FUNC);
+
+   //Checks for "whoseTurn" match for NUM_TURNS times
+   for (i = 0; i < NUM_TURNS; i++){
+      G.whoseTurn = turn;
+      result = whoseTurn(&G);
+
+      if (result == turn){
+         printf("Test #%d passed. Expected turn matches whoseTurn().\n", i + 1);
+      }
+      else{
+         printf("Test %d failed. Expected turn: %d, whoseTurn(): %d\n", i + 1, turn, result);
+         flag = 1;
+      }
+      turn++;
+   }
+
+   if (flag == 0){
+      printf("All tests passed.\n\n");
+   }
+   else{
+      printf("At least one test failed.\n\n");
+   }
+
+   return 0;
 }
