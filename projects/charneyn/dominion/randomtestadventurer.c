@@ -28,7 +28,7 @@ int main (){
 		g->handCount[player] = rand() % MAX_HAND;
 		int initialHand = g->handCount[player];
 		int opponentHand = g->handCount[1] = rand() % MAX_HAND;
-		int opponentsDeck = g->deckCount[1] = rand() % MAX_DECK;
+		int opponentDeck = g->deckCount[1] = rand() % MAX_DECK;
 		int coinCount = 0;
 		int j; 
 	
@@ -46,7 +46,7 @@ int main (){
 			}
 		}
 
-		if(coinCount > 0 && (initialHand + 1) == g->handCount[player] && opponentHand == g->handCount[1] && opponentsDeck == g->deckCount[1]){
+		if(coinCount > 0 && (initialHand + 1) == g->handCount[player] && opponentHand == g->handCount[1] && opponentDeck == g->deckCount[1]){
 			testSuccess++;
 		}
 		else{
