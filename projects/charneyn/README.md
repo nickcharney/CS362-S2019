@@ -1,3 +1,3 @@
-This is my assignment-2 submission!
-Case adventurer, smithy, council room, village, and great_hall refactored into functions outside of cardEffect.
-Introduced bugs into adventurerRefactor, smithyRefactor, councilRoomRefactor, and villageRefactor.
+This is my assignment-4 submission!
+Wrote random tests for adventurer, council room, and great hall.
+Had to remove adventurer bug from assignment 2 due to seg faults.
