@@ -1,0 +1,51 @@
+Random Tests: Adventurer Card
+Out of 100 games, adventurer was played successfully 0 times and unsuccessfully 100 times.
+
+File 'randomtestadventurer.c'
+Lines executed:96.97% of 33
+Branches executed:84.62% of 26
+Taken at least once:61.54% of 26
+Calls executed:100.00% of 13
+Creating 'randomtestadventurer.c.gcov'
+
+File 'dominion.c'
+Lines executed:21.58% of 570
+Branches executed:24.22% of 417
+Taken at least once:16.07% of 417
+Calls executed:11.00% of 100
+Creating 'dominion.c.gcov'
+
+Random Tests: Council Room Card
+Out of 100 games, council room was played successfully 0 times and unsuccessfully 100 times.
+
+File 'randomtestcard1.c'
+Lines executed:96.30% of 27
+Branches executed:50.00% of 8
+Taken at least once:37.50% of 8
+Calls executed:100.00% of 12
+Creating 'randomtestcard1.c.gcov'
+
+File 'dominion.c'
+Lines executed:24.56% of 570
+Branches executed:25.18% of 417
+Taken at least once:17.03% of 417
+Calls executed:14.00% of 100
+Creating 'dominion.c.gcov'
+
+Random Tests: Great Hall Card
+Out of 100 games, great hall was played successfully 100 times and unsuccessfully 0 times.
+
+File 'randomtestcard2.c'
+Lines executed:96.30% of 27
+Branches executed:100.00% of 8
+Taken at least once:62.50% of 8
+Calls executed:100.00% of 12
+Creating 'randomtestcard2.c.gcov'
+
+File 'dominion.c'
+Lines executed:21.58% of 570
+Branches executed:22.78% of 417
+Taken at least once:14.63% of 417
+Calls executed:12.00% of 100
+Creating 'dominion.c.gcov'
+
