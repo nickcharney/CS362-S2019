@@ -10,7 +10,7 @@ int main (){
 	int k[10] = {adventurer, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy, council_room};
 	int testSuccess = 0;
 	int testFail = 0;
-	int tests = 100;
+	int tests = 1000;
 	int i;
 	srand(time(NULL));
 
