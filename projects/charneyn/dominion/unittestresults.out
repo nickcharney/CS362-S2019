@@ -1,0 +1,107 @@
+unittest1.c
+Testing whoseTurn():
+Test #1 passed. Expected turn matches whoseTurn().
+Test #2 passed. Expected turn matches whoseTurn().
+Test #3 passed. Expected turn matches whoseTurn().
+Test #4 passed. Expected turn matches whoseTurn().
+Test #5 passed. Expected turn matches whoseTurn().
+All tests passed.
+
+File 'unittest1.c'
+Lines executed:82.35% of 17
+Branches executed:100.00% of 6
+Taken at least once:66.67% of 6
+Calls executed:66.67% of 6
+Creating 'unittest1.c.gcov'
+
+unittest2.c
+Testing drawCard():
+Test passed. Player drew a card.
+All tests passed.
+
+File 'unittest2.c'
+Lines executed:83.33% of 18
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:71.43% of 7
+Creating 'unittest2.c.gcov'
+
+unittest3.c
+Testing discardCard():
+Test passed. Player discarded a card.
+Test passed. Player's played card count increased by 1.
+All tests passed.
+
+File 'unittest3.c'
+Lines executed:77.27% of 22
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:66.67% of 9
+Creating 'unittest3.c.gcov'
+
+unittest4.c
+Testing shuffle():
+Test passed. The player's deck size was unchanged during the shuffle.
+All tests passed.
+
+File 'unittest4.c'
+Lines executed:83.33% of 18
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:71.43% of 7
+Creating 'unittest4.c.gcov'
+
+cardtest1.c
+Testing Smithy card:
+Test failed. Player drew 5 new cards.
+At least one test failed.
+
+File 'cardtest1.c'
+Lines executed:90.00% of 20
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:71.43% of 7
+Creating 'cardtest1.c.gcov'
+
+cardtest2.c
+Testing Adventurer card:
+Test passed. Exactly 2 treasure cards were drawn.
+Test passed. Drwan cards were added to test hand.
+All tests passed.
+
+File 'cardtest2.c'
+Lines executed:85.29% of 34
+Branches executed:100.00% of 24
+Taken at least once:66.67% of 24
+Calls executed:66.67% of 9
+Creating 'cardtest2.c.gcov'
+
+cardtest3.c
+Testing Village card:
+Test failed. Player did not draw the correct number of cards.
+Test passed. Player gained 2 actions.
+At lest one test failed.
+
+File 'cardtest3.c'
+Lines executed:83.33% of 24
+Branches executed:100.00% of 6
+Taken at least once:50.00% of 6
+Calls executed:66.67% of 9
+Creating 'cardtest3.c.gcov'
+
+cardtest4.c
+Testing Council Room card:
+Test passed. Player 1 drew 4 cards.
+Test passed. Player 1 gained 1 buy.
+Test failed. Player 2 did not draw 1 card.
+Test failed. Player 3 did not draw 1 card.
+Test failed. Player 4 did not draw 1 card.
+At least one test failed.
+
+File 'cardtest4.c'
+Lines executed:79.31% of 29
+Branches executed:100.00% of 10
+Taken at least once:60.00% of 10
+Calls executed:63.64% of 11
+Creating 'cardtest4.c.gcov'
+
